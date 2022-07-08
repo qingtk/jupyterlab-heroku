@@ -6,4 +6,4 @@ mkdir -p root
 cd root
 
 export JUPYTER_CONFIG_DIR=/app
-jupyter lab --port=${PORT}
+jupyter lab --port=${PORT} --no-browser -y
